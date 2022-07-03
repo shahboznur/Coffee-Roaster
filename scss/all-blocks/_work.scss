@@ -1,0 +1,171 @@
+.work {
+    background-color:  #F2F2F2;
+}
+
+.work__title {
+    padding-top: 320px;
+}
+
+.work__title-h5 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    padding-left: 85px;
+    padding-bottom: 80px;
+    
+}
+
+.work__line { 
+    width: 850px;
+    height: 1px;
+    background-color: #FDD6BA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 85px;
+}
+.work__line-circle {
+    width: 31px;
+    height: 31px;
+    border: 2px solid #0E8784;
+    display: block;
+    border-radius: 50%;
+}
+
+.work_list {
+    display: flex;
+    padding: 0 85px;
+    justify-content: space-between;
+}
+
+.work__list-item + .work__list-item {
+    margin-left: 85px;
+}
+
+.work__list-item {
+    padding-top: 67px;
+}
+
+.list__item-numbers {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.list__item-width-h6 {
+    width: 240px;
+}
+
+.list__item-h6 {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding: 38px 0 42px;
+}
+
+.list__item-text {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.work__title-link {
+    margin: 64px 0 200px 85px;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+
+    
+.work__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+    
+    .work__title {
+        padding-top: 720px;
+    }
+    
+    .work__title-h5 {
+        padding: 0;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+    
+    .work__line {
+        display: none;
+    }
+    
+    .work_list {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    
+    .work__list-item + .work__list-item {
+        margin: 0;
+    }
+    
+    .work__list-item {
+        padding: 0;
+
+    }
+    
+    .list__item-numbers {
+        text-align: center;
+        margin-top: 56px;
+    }
+
+    
+    
+    .list__item-width-h6 {
+        width: 100%;
+        margin: 24px 0; 
+
+    }
+    
+    .list__item-h6 {
+        font-size: 28px;
+        line-height: 32px;
+        padding: 38px 0 42px;
+        text-align: center;
+    }
+    
+    .list__item-text {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    .work__title-link {
+        margin: 79px 0 120px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

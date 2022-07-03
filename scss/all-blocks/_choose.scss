@@ -1,0 +1,163 @@
+.choose {
+    background-color: #F2F2F2;
+}
+
+.choose__part {
+    background-color: #2C343E;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 114px;
+}
+
+.choose__title {
+    width: 540px;
+    margin: 0 auto;
+    padding: 110px 0 117px;
+}
+
+.choose__title-h4 {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+}
+
+.choose__title-p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding-top: 32px;
+}
+
+
+.choose__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+    position: absolute;
+    top: 30 0px;
+
+}
+
+.choose__item {
+    width: 350px;
+    height: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E8784;
+    border-radius: 8px;
+}
+
+.choose__item + .choose__item{
+    margin-left: 30px;
+}
+
+.choose__item-img {
+    display: block;
+    margin: 72px 0 56px;
+}
+
+.choose__item-h4 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FEFCF7;
+}
+
+.choose__item-p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    text-align: center;
+    padding: 24px 0 48px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+    .choose__part {
+        padding-bottom: 550px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .choose__title {
+        width: 310px;
+        margin: 0 auto;
+        padding: 110px 0 117px;
+    }
+    
+    .choose__title-h4 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .choose__title-p {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 32px;
+    }
+    
+    
+    .choose__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        position: absolute;
+        top: 360px;
+    
+    }
+    
+    .choose__item {
+        width: 279px;
+        height: 382px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #0E8784;
+        border-radius: 8px;
+    }
+    
+    .choose__item + .choose__item{
+        margin-left: 0;
+        margin-top: 24px;
+    }
+    
+    .choose__item-img {
+        display: block;
+        margin: 96px 0 56px;
+    }
+    
+    .choose__item-p {
+        padding: 24px 33px 51px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

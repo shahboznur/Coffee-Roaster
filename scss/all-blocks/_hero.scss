@@ -1,0 +1,84 @@
+.hero {
+    background-color:  #F2F2F2;
+}
+
+
+.hero__title {
+    background-image: url("../../images/Bitmap1-1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 128px 0 125px 86px;
+    border-radius: 10px;
+}
+
+.hero__records {
+    width: 493px;
+    
+}
+
+.hero__title-h2 {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+}
+
+.hero__title-p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding: 32px 0 56px;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px){
+
+    .hero__title {
+        background-image: url("../../images/Bitmap-mobile.jpg");
+        padding: 0;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+    
+    .hero__records {
+        width: 279px;
+        padding: 100px 0;
+        
+    }
+    
+    .hero__title-h2 {
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .hero__title-p {
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        padding: 24px 0 39px;
+    }
+
+    .hero__title-link {
+        text-align: center;
+        display: inline;
+        margin-left: 37px;
+
+    }
+
+}
+
